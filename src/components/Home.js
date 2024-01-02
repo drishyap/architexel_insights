@@ -1,15 +1,15 @@
 import React from "react";
+import About from "./about/About";
 import Contact from "./contact/Contact";
-import Faq from "./faq/Faq";
 import Hero from "./hero/Hero";
-import Pricing from "./pricing/Pricing";
+import Faq from "./qualities/Qualities";
 import Testimonials from "./testimonials/Testimonials";
 
 const Home = () => {
    return (
       <div>
          <Hero />
-         <Pricing />
+         <About />
          <Faq />
          <Testimonials />
          <Contact />

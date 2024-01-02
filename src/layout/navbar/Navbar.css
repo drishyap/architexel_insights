@@ -17,7 +17,7 @@ header .navbar {
 header .logo {
    display: flex;
    align-items: center;
-   color: var(--primary);
+   color: var(--white);
 }
 
 .hamburger {
@@ -38,7 +38,7 @@ header .logo {
 }
 
 .nav-link {
-   color: var(--primary);
+   color: var(--white);
    cursor: pointer;
 }
 

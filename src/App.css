@@ -6,12 +6,13 @@
 }
 
 :root {
-   --main: #edf2fa;
+   --main: #442e8f;
    --primary: #6948ff;
    --secondary: #553bcb;
    --darkgrey: #22262a;
    --lightgrey: #d3d3d3;
    --grey: #808080;
+   --white: #fff;
 }
 
 body {

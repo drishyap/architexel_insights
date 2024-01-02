@@ -6,19 +6,28 @@
 .section-faq .container {
    max-width: 1240px;
    padding: 1rem;
+   padding-bottom: 60px;
    margin: auto;
    overflow: hidden;
    display: grid;
    grid-template-columns: 1fr 2fr;
 }
 
+.section-faq .container {
+   border-bottom: 1px solid var(--lightgrey);
+}
 .section-faq h3 {
    font-size: 28px;
    padding: 1rem 0;
+   color: var(--main);
 }
 
 .section-faq .col-1 p {
    color: var(--grey);
+}
+
+.section-faq .col-1 h3 {
+   margin-right: 10px;
 }
 
 .section-faq span {
@@ -28,6 +37,7 @@
 .section-faq h5 {
    font-size: 1rem;
    padding: 0.4rem 0;
+   color: var(--secondary);
 }
 
 .section-faq .faq {

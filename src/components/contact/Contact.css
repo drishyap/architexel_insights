@@ -1,7 +1,6 @@
 .contact {
    width: 100%;
-   margin: 3rem 0;
-   display: flex;
+   margin: 1rem 0;
 }
 
 .contact .container {
@@ -14,6 +13,13 @@
 .contact .col-1 {
    flex: 1 0 50%;
    padding: 5rem 2rem;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+}
+
+.contact .col-1 .heroImg {
+   display: flex;
+   justify-content: end;
 }
 
 .contact .col-1 .socialBoxWrap {
@@ -115,5 +121,22 @@
 
    .contact .col-2 {
       padding: 1rem;
+   }
+   .contact .col-1 {
+      display: flex;
+      flex-direction: column;
+   }
+   .contact .col-1 .heroImg {
+      margin-top: 50px;
+      margin-bottom: 50px;
+   }
+}
+
+@media screen and (max-width: 660px) {
+   .contact .col-1 .heroImg {
+      width: 100%;
+   }
+   .contact .col-1 .heroImg img {
+      width: 100%;
    }
 }

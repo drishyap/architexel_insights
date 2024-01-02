@@ -5,6 +5,9 @@ import {
    FaInstagram,
    FaTwitter,
 } from "react-icons/fa";
+import { MdLocationOn } from "react-icons/md";
+
+import contactImg from "../../assets/home/contact_img.png";
 import "./Contact.css";
 
 export const Contact = () => {
@@ -23,15 +26,17 @@ export const Contact = () => {
             <div className="col-1">
                <div className="content">
                   <div>
-                     <h2>Stay in the Loop</h2>
-                     <p>
-                        Join our vibrant community and never miss out
-                        on updates, winner announcements, and special
-                        events.
-                     </p>
+                     <h2>Contact Us</h2>
+                     <p>Stay in the loop by contating us.</p>
+                     <div className="icons">
+                        <MdLocationOn
+                           style={{ marginRight: "1rem" }}
+                        />
+                        <p>United Kingdom</p>
+                     </div>
                      <div className="icons">
                         <FaEnvelope style={{ marginRight: "1rem" }} />
-                        <p>info@kera.live</p>
+                        <p>info@architexel-insights.com</p>
                      </div>
 
                      <p className="followTitle">
@@ -66,28 +71,9 @@ export const Contact = () => {
                      </div>
                   </div>
                </div>
-            </div>
-            <div className="col-2">
-               <h2>We're Here to Help</h2>
-               <p>
-                  Questions or feedback? Our dedicated support team is
-                  just a message away.
-               </p>
-               <form action="">
-                  <input type="text" placeholder="Full name" />
-                  <input type="email" placeholder="Email" />
-                  <input type="phone" placeholder="Phone" />
-                  <textarea
-                     name="Message"
-                     placeholder="Message"
-                     cols="30"
-                     rows="10"
-                  ></textarea>
-
-                  <button onClick={formSubmit} className="button">
-                     Submit
-                  </button>
-               </form>
+               <div className="heroImg">
+                  <img src={contactImg} alt="win big" />
+               </div>
             </div>
          </div>
       </div>

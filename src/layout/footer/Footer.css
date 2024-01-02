@@ -15,7 +15,7 @@
 .footer .logo {
    display: flex;
    align-items: center;
-   color: var(--primary);
+   color: var(--white);
 }
 
 .footer .menu-box {
@@ -25,7 +25,7 @@
 }
 
 .footer .menu-box .link {
-   color: var(--primary);
+   color: var(--white);
 }
 
 .footer h6,
@@ -67,11 +67,11 @@ p {
    padding: 2rem;
    display: flex;
    justify-content: space-between;
-   border-top: 1px solid var(--primary);
+   border-top: 1px solid var(--white);
 }
 
 .footer .content .rights p {
-   color: var(--primary);
+   color: var(--white);
 }
 
 @media screen and (max-width: 960px) {
