@@ -1,0 +1,49 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+:root {
+   --main: #edf2fa;
+   --primary: #6948ff;
+   --secondary: #553bcb;
+   --darkgrey: #22262a;
+   --lightgrey: #d3d3d3;
+   --grey: #808080;
+}
+
+body {
+   color: #333;
+   font-family: "Poppins", sans-serif;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   columns: #fff;
+}
+
+.primary-color {
+   color: var(--primary);
+}
+
+.button {
+   width: 100%;
+   padding: 8px 0;
+   border-radius: 4px;
+   border: 1px solid var(--primary);
+   background-color: var(--primary);
+   color: #fff;
+   cursor: pointer;
+   transition: 0.3s ease-in-out;
+}
+
+.button:hover {
+   border: 1px solid var(--secondary);
+   background-color: var(--secondary);
+}
